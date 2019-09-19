@@ -1,0 +1,63 @@
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    padding: 40px; /* some padding */
+    text-align: center; /*center the text */
+    background: #1abc9c; /* green background */
+    color: white; /* sets text color to white */ 
+}
+
+.header h1{
+    font-size: 20px; /* sets font size to 20px */
+}
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden; /* hides overflow */
+    background-color: black; /*black background color */
+}
+
+/* style the navigation bar links */
+.navbar a {
+    float: left; /* makes sure that the links stay side by side */
+    display: block; /* change the display block for response reasons */
+    color: white; /*white text color */
+    text-align: center; /* center the text */
+    padding: 5px 5px; /* add some padding */
+    text-decoration: none; /* remove underline */
+}
+
+/* right aligned link */
+.navbar a.right {
+    float: right; /* float a link to the right */
+}
+
+/* change color on hover/mouse-over */
+.navbar a:hover {
+    background-color: gray; /*gray background color */
+    color: black; /* black text color */
+}
+
+
+
+.row {
+    background-color: gray;
+    color: white;
+}
+
+.column-right {
+    float: right;
+    padding: 50px;
+    height: 300px; 
+    width: 100px
+}
+
+.column-left {
+    float: left;
+    padding: 50px;
+    height: 300px; 
+    width: 100px
+}
